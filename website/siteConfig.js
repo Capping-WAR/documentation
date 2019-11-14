@@ -14,8 +14,8 @@ const users = [
     caption: 'dgisolfi',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-siteimg/image.jpg'.
-    image: 'img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'img/tank.png',
+    infoLink: 'http://war.marist.ai',
     pinned: true,
   },
 ];
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'project_overview', label: 'Project'},
-    {doc: 'developer_overview', label: 'Developer'},
+    {doc: 'technical_overview', label: 'Technical'},
   ],
 
   // If you have users set above, you add it here:
@@ -52,8 +52,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#358ece',
-    secondaryColor: '#358ece',
+    primaryColor: '#367daf',
+    secondaryColor: '#000000',
   },
 
   /* Custom fonts for website */
@@ -71,7 +71,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Daniel Gisolfi - War`,
+  copyright: `Copyright © ${new Date().getFullYear()}  War`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -87,8 +87,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  ogImage: 'img/tank.png',
+  twitterImage: 'img/tank.png',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
