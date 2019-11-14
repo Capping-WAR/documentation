@@ -4,18 +4,18 @@ title: Database
 sidebar_label: Database
 ---
 
-The war tool uses a postgres database to store and process all relavant user and sentence information.
+The war tool uses a Postgres database to store and process all relevant user and sentence information.
 
 ## SQL Defintion
 
-All the nessecary sql commands to create a new instance of the War database can be found within the `database` directory of the [API repository](https://github.com/Capping-WAR/API/tree/master/database). Use this file during deployment to recreate the nessecary tables and procedures.
+All the necessary SQL commands to create a new instance of the War database can be found within the `database` directory of the [API repository](https://github.com/Capping-WAR/API/tree/master/database). Use this file during deployment to recreate the necessary tables and procedures.
 
 
 ## Deployment
 
-The postgres database is deployed using docker, to deploy a new instance of the war database preform the following steps.
+The Postgres database is deployed using docker, to deploy a new instance of the war database perform the following steps.
 
-On the target server create a new file called `docker-compose.yaml`. Place the follwing definition as the content of the file.
+On the target server create a new file called `docker-compose.yaml`. Place the following definition as the content of the file.
 
 ```yaml
 version: '2'
@@ -35,7 +35,7 @@ services:
             POSTGRES_DB: $NAME
 ```
 
-Next add the [SQL Definition](https://github.com/Capping-WAR/API/tree/master/database/war.sql) to the same directory. Then, three enviorment variables must be set in the docker container upon startup. To acomplish this create a file called `.env` and set the contents simmilar to below(change the values where appropriate):
+Next, add the [SQL Definition](https://github.com/Capping-WAR/API/tree/master/database/war.sql) to the same directory. Then, three environment variables must be set in the docker container upon startup. To accomplish this create a file called `.env` and set the contents similar to below(change the values where appropriate):
 
 ```bash
 NAME=DB_NAME
@@ -48,3 +48,4 @@ Finally, deploy the database by running:
 ```bash
 docker-compose up -d
 ```
+
