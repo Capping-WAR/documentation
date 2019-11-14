@@ -1,6 +1,6 @@
 {
   "Developer": {
     "Overview": ["developer_overview"],
-    "Services": ["war_api"]
+    "Services": ["database", "war_api","ai_api", "ui", "apache", "docusaurus"]
   }
 }
