@@ -113,14 +113,6 @@ Attach Final Project Plan
 
 ### List of Client Meetings: 
 
-
-
-Document all client requests and changes throughout: 
-
-​	Originally we had the requirements our week we were a couple weeks ahead until ER was switched off based on the idea that a new said it could be added and we wouldn’t stick to the same type rules upon this change we had to redo most of our initial progress and since we were ahead it did not set us back but certainly believe us as for the requirements we initially had we had some alterations such as the randomization of the correct and incorrectButtons. He also had plans for an AI training however due to outside criteria or plans to be made by the client we were unable to assess the full aspect and have left the basis for what can be completed next we have generated images that will appear based off of something. Overall we are very satisfied with the outcome of the project and have a met majority of the initial requirements the client is happy with the product and it can be used to further develop and train the data for the reviewer’s. 
-
-​	This led to the change in time needed for AI tasks as the main requirement is taken out, and we are generating gif using Python scripts provided by the client. 
-
 ## Infrastructure Design
 
 ### IT Requirements
