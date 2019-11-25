@@ -1,0 +1,66 @@
+/* your custom css */
+
+.projectLogo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+
+.projectLogo > img {
+    padding-top: 7%;
+    width: 25%;
+    height: 25%;
+    min-width: 120px;
+    
+}
+
+.projectTitle {
+    color: black;
+}
+
+.homeContainer {
+    margin-top: 2%;
+}
+
+.fixedHeaderContainer {
+    min-height: 75px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.blockContent {
+    text-align: left;
+}
+
+.wrapper {
+    padding-top: 0.5%;
+    font-size: 1rem;
+}
+
+.button {
+    min-width: 150px;
+}
+
+.fixedHeaderContainer header img {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

@@ -1,4 +1,6 @@
-## Title Page
+
+
+Title Page
 
 Writing Advisor Review Tool 
 
@@ -205,39 +207,39 @@ As per the clients request, the theme for the Writing Advisor Review tool is sim
 
 ## Project Plan
 
-###Final Project Schedule
+###Project Schedule
 
-| Date      | Milstone |
-| --------- | -------- |
-| 8/28/2019 |          |
-| 9/03/2019 |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
-|           |          |
+| Date       | Milstone         | Tasks                                                        | Responsible | Notes                                         |
+| ---------- | ---------------- | ------------------------------------------------------------ | ----------- | --------------------------------------------- |
+| 8/28/2019  | Project Start    | Assigned Team, Project, and  Roles                           | ALL         |                                               |
+| 9/03/2019  | Project Start #2 | Sceduele first team meeting, establish communication plan    | ALL         |                                               |
+| 9/04/2019  | Project Planning | Develop Project Plan and delegate responsibilites among team members | ALL         |                                               |
+| 9/06/2019  | Client Meeting   | Meet with client to gather initial requirements              | ALL         | These meetings will occur every Friday @2 PM  |
+| 9/09/2019  | Team Meeting     | Discuss requirements, work on Homework #1                    | ALL         | These meetings will occur every Monday @ 2 PM |
+| 9/11/2019  | Homework #1 Due  | Client Questions, User Requirements, Use Case, and Project Plan | SAM/ALL     |                                               |
+| 9/11/2019  |                  |                                                              |             |                                               |
+| 9/16/2019  |                  |                                                              |             |                                               |
+| 9/18/2019  |                  |                                                              |             |                                               |
+| 9/25/2019  |                  |                                                              |             |                                               |
+| 9/25/2019  |                  |                                                              |             |                                               |
+| 9/25/2019  |                  |                                                              |             |                                               |
+| 10/09/2019 |                  |                                                              |             |                                               |
+| 10/16/2019 |                  |                                                              |             |                                               |
+| 10/16/2019 |                  |                                                              |             |                                               |
+| 10/16/2019 |                  |                                                              |             |                                               |
+| 10/23/2019 |                  |                                                              |             |                                               |
+| 10/30/2019 |                  |                                                              |             |                                               |
+| 11/06/2019 |                  |                                                              |             |                                               |
+| 11/06/2019 |                  |                                                              |             |                                               |
+| 11/13/2019 |                  |                                                              |             |                                               |
+| 11/20/2019 |                  |                                                              |             |                                               |
+| 11/27/2019 |                  |                                                              |             |                                               |
+| 12/02/2019 |                  |                                                              |             |                                               |
+| 12/04/2019 |                  |                                                              |             |                                               |
+| 12/04/2019 |                  |                                                              |             |                                               |
+|            |                  |                                                              |             |                                               |
+|            |                  |                                                              |             |                                               |
+|            |                  |                                                              |             |                                               |
 
 In the Project Analysis section, all requirements are listed. Over the course of the semester, there have been 
 
@@ -245,13 +247,14 @@ In the Project Analysis section, all requirements are listed. Over the course of
 
 *Each week we have made alterations to our project plan based on changes, added requirements, team setbacks, and unanticipated alterations. 
 
-### Seven Lessons Learned 
+### Lessons Learned 
 
 1. Anticipate changes from the client
 2. Plan with more time needed 
 3. Ensure requirements are understood 
 4. Under commit and over deliver
 5. Constantly communicate with team 
+   1. Our communication plan was followed from the start. We met 
 6. Never be afraid to ask for help
 7. Voice your thoughts and opinons 
 8. Google Slides Only
@@ -417,7 +420,9 @@ NOTE: Batchelor's degree preffered, but no degree is required to assume these ro
 
 This project took aproximately 13 weeks to complete. 
 
+Times the hours a week by 13 weeks and add in other costs 
 
+Total Cost + additional $5/month to keep the system running
 
 Test Cases for the use cases: 
 
