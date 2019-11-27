@@ -1,8 +1,8 @@
-
-
 Title Page
 
 Writing Advisor Review Tool 
+
+CMPT475/477
 
 Senior Capping Project 
 
@@ -42,7 +42,7 @@ viii.     The reviewer interacts with a reputation system.
 
 ​     ix.     The reputation system will motivate the reviewer. The reviewer will see a progress bar tracking their reputation count.
 
-​    x.     The reviewer’s status will be displayed on the leaderboard with a reputation count. 
+​    x.     The reviewer and the other Top 2 users in the system will be displayed on the leaderboard along with their reputation score.  
 
 ​      xi.     The reviewer’s reputation will be positively impacted by 10 points if they were in agreement with the majority of the votes with the sentence being correct or incorrect.
 
@@ -145,9 +145,7 @@ On the left side of the front landing page there is a leaderboard and a rank com
 
 ##### About US
 
-
-
-The About US page consists of information related to the purpose of the Writing Advisor Review tool. 
+The About US page consists of information related to the purpose of the Writing Advisor Review tool and the creators of it. 
 
 #####Artifical Intelligence 
 
@@ -207,97 +205,159 @@ As per the clients request, the theme for the Writing Advisor Review tool is sim
 
 ## Project Plan
 
-###Project Schedule
+###Final Project Schedule
 
-| Date       | Milstone         | Tasks                                                        | Responsible | Notes                                         |
-| ---------- | ---------------- | ------------------------------------------------------------ | ----------- | --------------------------------------------- |
-| 8/28/2019  | Project Start    | Assigned Team, Project, and  Roles                           | ALL         |                                               |
-| 9/03/2019  | Project Start #2 | Sceduele first team meeting, establish communication plan    | ALL         |                                               |
-| 9/04/2019  | Project Planning | Develop Project Plan and delegate responsibilites among team members | ALL         |                                               |
-| 9/06/2019  | Client Meeting   | Meet with client to gather initial requirements              | ALL         | These meetings will occur every Friday @2 PM  |
-| 9/09/2019  | Team Meeting     | Discuss requirements, work on Homework #1                    | ALL         | These meetings will occur every Monday @ 2 PM |
-| 9/11/2019  | Homework #1 Due  | Client Questions, User Requirements, Use Case, and Project Plan | SAM/ALL     |                                               |
-| 9/11/2019  |                  |                                                              |             |                                               |
-| 9/16/2019  |                  |                                                              |             |                                               |
-| 9/18/2019  |                  |                                                              |             |                                               |
-| 9/25/2019  |                  |                                                              |             |                                               |
-| 9/25/2019  |                  |                                                              |             |                                               |
-| 9/25/2019  |                  |                                                              |             |                                               |
-| 10/09/2019 |                  |                                                              |             |                                               |
-| 10/16/2019 |                  |                                                              |             |                                               |
-| 10/16/2019 |                  |                                                              |             |                                               |
-| 10/16/2019 |                  |                                                              |             |                                               |
-| 10/23/2019 |                  |                                                              |             |                                               |
-| 10/30/2019 |                  |                                                              |             |                                               |
-| 11/06/2019 |                  |                                                              |             |                                               |
-| 11/06/2019 |                  |                                                              |             |                                               |
-| 11/13/2019 |                  |                                                              |             |                                               |
-| 11/20/2019 |                  |                                                              |             |                                               |
-| 11/27/2019 |                  |                                                              |             |                                               |
-| 12/02/2019 |                  |                                                              |             |                                               |
-| 12/04/2019 |                  |                                                              |             |                                               |
-| 12/04/2019 |                  |                                                              |             |                                               |
-|            |                  |                                                              |             |                                               |
-|            |                  |                                                              |             |                                               |
-|            |                  |                                                              |             |                                               |
+| Date       | Milstone                                                     | Tasks                                                        | Responsible   | Notes                                         |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------- | --------------------------------------------- |
+| 8/28/2019  | Project Start                                                | Assigned Team, Project, and  Roles                           | ALL           |                                               |
+| 9/03/2019  | Project Start #2                                             | Sceduele first team meeting, establish communication plan    | ALL           |                                               |
+| 9/04/2019  | Project Planning                                             | Develop Project Plan and delegate responsibilites among team members | ALL           |                                               |
+| 9/06/2019  | Client Meeting                                               | Meet with client to gather initial requirements              | ALL           | These meetings will occur every Friday @2 PM  |
+| 9/09/2019  | Team Meeting                                                 | Discuss requirements, work on Homework #1                    | ALL           | These meetings will occur every Monday @ 2 PM |
+| 9/11/2019  | Homework #1 Due                                              | Client Questions, User Requirements, Use Case, and Project Plan | SAM/ALL       |                                               |
+| 9/11/2019  | Weekly Status Update Due                                     | Complete Weekly Status Updates, Ensure Team is on track      | SAM           |                                               |
+| 9/16/2019  | VM Setup                                                     | Setup Linux Server Environment                               | LAUREN        |                                               |
+| 9/18/2019  | Homework #2 Due                                              | E-R Diagram complete with supporting documentation           | ALL           |                                               |
+| 9/25/2019  | Front-End Design  Complete                                   | Learn React and complete mock-up of front end including all landing page components | DAN/ALI       |                                               |
+| 9/25/2019  | Database Complete                                            | Database is fully set up                                     | DAYNA         |                                               |
+| 9/25/2019  | Homework #3 Due                                              | Complete wireframes of user interface                        | ALL           |                                               |
+| 10/09/2019 | Integration Tasks                                            | Set up API routes to handle all interactions between the database and the front - end | DAN           |                                               |
+| 10/16/2019 | Install Servers in the Data Center                           | Pysically install in the racks and configure                 | LAUREN        |                                               |
+| 10/16/2019 | Homework #4 Due                                              | Early Mature Demo, user interfaces connected, a proper connection to the DBMS, all external APIs and accounts tests, implemented test cases in a functional stage | ALL           |                                               |
+| 10/16/2019 | Mid-semester lifeboat due                                    | Determine which team member we would promote and which we would fire | ALL           |                                               |
+| 10/23/2019 | About US Page, FAQ Page,                                     | Ensure these pages are  displayed on the front-end           | DAN/ALI       |                                               |
+| 10/30/2019 | Stored Procedures, Integration Cont'd, SSO Authentication    | Write and implement stored procedures, All user data displayed on the Front End, | DAN/DAYNA     |                                               |
+| 11/06/2019 | AI Placeholder Tasks, Integration complete, Prepare for Draft Demo | Use client data python scripts to create placeholder tables and charts on the AI Page | ALL           |                                               |
+| 11/06/2019 | Rough Mature Draft Demo Due                                  | Ensure system's main functionalities are functional for this demo | ALL           |                                               |
+| 11/13/2019 | AI Placeholder Tasks, Admin Page, Code Review                | Implement images generated by python scripts, Design Admin page, pull user information from database to display on charts | ALI/DAN       |                                               |
+| 11/20/2019 | Final Documentation                                          | Ensure all components of the projects are included and document: Project Analysis, Design, and Plan | SAM           |                                               |
+| 11/20/2019 | Last Code Fixes, Deployment to Production                    | Ensure code is clean, comment everything, make any last fixes, and deploy to production server | DAN/ALI/DAYNA |                                               |
+| 11/27/2019 | No Meeting - HOLIDAY                                         |                                                              |               |                                               |
+| 12/02/2019 | Project Prototype Complete                                   | On this date at 8 AM, our prototype will be handed over to the client | ALL           |                                               |
+| 12/04/2019 | Final Paper Due                                              | Ensure Paper is completed and meets professor's guidelines   | ALL           |                                               |
+| 12/04/2019 | Final Peer Evaluations                                       | Perform honest and sincere evaluations of team members       | ALL           |                                               |
+| 12/04/2019 | Final Video Due                                              | Create video emphasising the purpose/importance of our system | ALL           |                                               |
+| 12/04/2019 | Final Presentation                                           | Ensure Presentation is completed and follows professor's rubric | ALL           |                                               |
+|            |                                                              |                                                              |               |                                               |
 
-In the Project Analysis section, all requirements are listed. Over the course of the semester, there have been 
+ 
 
-### Expectations Vs. Reality  
+#### Expectation vs. Reality
 
-*Each week we have made alterations to our project plan based on changes, added requirements, team setbacks, and unanticipated alterations. 
+Above is Team WAR's final project plan. In comparison to the initital project plan, there has been many alterations, setbacks, and updates to the schedule. This is typical for any software development project as it is hard to anticipate final outcomes. It is also difficult to anticipate what the client will ask of the team, so one must do their best to prepare. 
+
+The first requirement that the client added beyond initial requirements was that the leaderboard must display the top users of the system. This posed no major alterations to the system. The second requirement the client proposed was that the system had to be designed so that if the writing center asked for other rules to be added (other than the five original rules), it could easily be done so. At this point, the ER diagram had been completed, the database had been created, and the swagger definition was set up with all appropriate API routes. To complete this request called for an entire renovation of our ER Diagram, which eventually led to a re-do of all other activities mentioned. This set us back a few weeks in terms of the progress we had initially made. Once the new renovation was approved the team pondered on further questions regarding this new design and needed clarifications from the client until we could proceed. In essence, the final approval was needed to continue on, or else we might find ourselves back at square one once again.
+
+Fortunately, the new design was approved and Team War was able to get back on track. The client had initial plans for training models from the system. This was not part of the original requirements but was mentioned as a potential extra feature to the system. We had left a few weeks in our schedule dedicated to complete these AI tasks. However, the client said we did not have the necessary outside information and work completed to carry out these tasks. This led to the client providing python scripts which we used to produce the outcome seen on the AI Page. In the future, these tables could display real information based on training model data. Throughout the semester, we also have encounted work items that took us longer than expected due to bugs. One example of this was facing issues with connecting the front end to the API. The Redux state was not assigning correct values 100 percent of the time. In due time, we were able to resolve this issue by chaining promise resolutions to a dedicated attribute in the state to allow asynchronous calls to be handled synchronously. Integration to the front-end also took us more weeks than we had initially planned for. Our original sceduele planned for all integration to be completed by October 9th! However, we found ourselves integrating from the back end to the front end until almost the end of the project timeline. 
+
+Overall, Team WAR is very satisfied with the outcome of the project and believes we have met all of the requirements requested by the client. We have taken all measures to document our work accurately so that this project may be useful and possibily expanded on in the future. This project is the foundation to a project that has great potential to expand its functionalities in addition to AI model training. All meetings with the client are documented below. 
+
+#### Client Meetings
+
+**Meeting with client #1 (8/30)**
+
+Summary: The purpose of this meeting is to understand background of the project, gather inital requirements from the client, ask questions to further understand the requirements. We established means of communication with the client for outside scedueled meeting time. Below are the questions asked: 
+
+A.  *What is the program?*
+
+​        i.     There’s a prototype for an online writing center program for uploading essays and getting critiques on those essays. The task is to create a web app so that reviewers can go on and correct sentences that students have tagged.
+
+B.  *What does tagging mean?*
+
+​        i.     When the system corrects a student’s essay, the student will tag a sentence if they think that it was correct (incorrectly marked as wrong) for further review by the reviewer.
+
+C. *So reviewers are going to see what the student tagged and what the computer marked as wrong?*
+
+​        i.     No. It should be ambiguous so the reviewer will know that the sentence was marked as incorrect by the computer and tagged by the student for further review, but they won’t know why it was originally marked as incorrect.
+
+D.  *What are some main features that you want included?*
+
+​        i.     There are 5 main criteria (provided by the writing center) for whether or not a sentence is correct. Reviewers should be able to see those 5 criteria and base their review on the criteria. I would also like AI to be incorporated into the program so that the computer will learn for further essays what is correct and what is incorrect based on past reviews from reviewers. It would also be nice if graphs based on site statistics were displayed. There should also be an about page about your team. For reviewers, I want there to be an incentive to correct sentences so reviewers gain reputation based on their corrections and if multiple people had the same corrections.
+
+E.  *How many people correct the sentences?*
+
+​        i.     Sentences are definitively declared wrong or right if they have 5 votes from reviewers that completely agree (either all yes or all no) or if there are more than 5 votes, ¾ of the votes must be in agreement for the sentence to be marked right or wrong.
+
+F.  *Is login necessary for this site?*
+
+​        i.     Yes, it should use Marist Authentication to sign in.
+
+G.  *What type of design would you like the web app to follow?*
+
+​        i.     It needs to be simple and functional so that it’s easy to use for the users and reviewers. It should also be lightweight and fast.
+
+H.  *What type of environment should we develop this in?*
+
+​        i.     It should be a Linux environment
+
+I.  *Are there any specific requirements for the database?*
+
+​        i.     Yes. It needs to be in Postgres or MySQL and queries need to be secure across the servers.
+
+**Meeting with client #2 (9/6)** 
+
+Summary: The purpose of these was to provide status current status of the  project. Team WAR asked further questions regarding the system requirements and clarified anything misunderstood by the team. Client explains what he wants out of the reputation system. 
+
+**Meeting with client #3 (9/13)**
+
+Summary: Meeting with client canceled -- client had to attend conference. 
+
+**Meeting with client #4 (9/20)**
+
+Summary: The purpose of this meeting was to show client user interface design. Client approved designed and was pleased with the dark mode. Client asked team to make minor changes regarding page alignment which was resolved immediately. Client also added the requirement to display top scores on the leaderboard. 
+
+**Meeting with client #5 (9/27)**
+
+Summary: The purpose of this meeting was to review the Entity-Relational Diagram. The Client brought up the question of what if another rule was added? Our current database did not have a rules table to easily integrate another rule into the system. This led to a total renovation of the current ERD. It also led to an entire re-do of most of the progress made for database functionalities and API controls. 
+
+**Meeting with client #6 (10/4)**
+
+Summary: No meeting - Client out of the country. 
+
+**Meeting with client #7 (10/11)**
+
+Summary:  Team went to Professor Alan Labouseur prior to meeting to get feedback on re-designed ERD, in which he made minor changes. Client approved final changes and gave the team approval to continue on with this database design. 
+
+**Meeting with client #8 (10/18) - No Meeting Fall Break**
+
+No meeting this week with client due to break. Client gave approval for ERD and team is getting back on progress. 
+
+**Meeting with client #9 (November 1st)**
+
+The purpose of this meeting is to discuss next steps for AI tasks. We received news from the client that the work needed on his end for us to continue our part was not going to be finished in the allotted time. Thus, he will provide us scripts to act as placeholders for training model data on the AI Page. 
+
+**Meeting with client #10 (November 6th)**
+
+The purpose of this meeting was for the client to check the team's progress. Client described the process of the final handoff. The team proposed an idea for documentation: Docusaurus, which the client approved. All currently on track. 
+
+**Meeting with client #11 (November 13th)**
+
+The purpose of this meeting was to ask client questions memory issues on the Google Server in which the team and client came to a few possible resolutions. The team also asked questions regarding clarification on the admin page. 
+
+**Meeting with client #12 (November 20th)**
+
+The purpose of this meeting was to ask client clarification questions on documentation. The client and team scedueled date and time for the final handoff. 
+
+**Meeting with client #13 (December 2nd)**
+
+The purpose of this meeting is to handoff the complete prototype to client. The project is now in full posession of the client. 
 
 ### Lessons Learned 
 
 1. Anticipate changes from the client
-2. Plan with more time needed 
+   1. There were situations mentioned above where the client introduced new requirements. We learned to always expect there can be changes to the initial requirements so we can best prepare for them. By preparing for alterations, there will be less of a setback when it actually occurs. 
+2. Plan with more time than needed 
+   1. Originally we set up the schedule plan to finish specific work days before official deadlines. In doing this, we were able to get ahead of sceduele. This proved critical when we had our major setback and was one of the reasons we were able to resume back on track. This also left time for us to review code and make last fixes. 
 3. Ensure requirements are understood 
-4. Under commit and over deliver
-5. Constantly communicate with team 
-   1. Our communication plan was followed from the start. We met 
-6. Never be afraid to ask for help
-7. Voice your thoughts and opinons 
-8. Google Slides Only
-
-### Client Meetings
-
-Meeting #1 -Questions with the client
-
-A.  **What is the program?**
-
-​        i.     There’s a prototype for an online writing center program for uploading essays and getting critiques on those essays. The task is to create a web app so that reviewers can go on and correct sentences that students have tagged.
-
-B.  **What does tagging mean?**
-
-​        i.     When the system corrects a student’s essay, the student will tag a sentence if they think that it was correct (incorrectly marked as wrong) for further review by the reviewer.
-
-C.**  **So reviewers are going to see what the student tagged and what the computer marked as wrong?**
-
-​        i.     No. It should be ambiguous so the reviewer will know that the sentence was marked as incorrect by the computer and tagged by the student for further review, but they won’t know why it was originally marked as incorrect.
-
-D.**  **What are some main features that you want included?**
-
-​        i.     There are 5 main criteria (provided by the writing center) for whether or not a sentence is correct. Reviewers should be able to see those 5 criteria and base their review on the criteria. I would also like AI to be incorporated into the program so that the computer will learn for further essays what is correct and what is incorrect based on past reviews from reviewers. It would also be nice if graphs based on site statistics were displayed. There should also be an about page about your team. For reviewers, I want there to be an incentive to correct sentences so reviewers gain reputation based on their corrections and if multiple people had the same corrections.
-
-E.**  **How many people correct the sentences?**
-
-​        i.     Sentences are definitively declared wrong or right if they have 5 votes from reviewers that completely agree (either all yes or all no) or if there are more than 5 votes, ¾ of the votes must be in agreement for the sentence to be marked right or wrong.
-
-F.**   **Is login necessary for this site?**
-
-​        i.     Yes, it should use Marist Authentication to sign in.
-
-G.**  **What type of design would you like the web app to follow?**
-
-​        i.     It needs to be simple and functional so that it’s easy to use for the users and reviewers. It should also be lightweight and fast.
-
-H.**  **What type of environment should we develop this in?**
-
-​        i.     It should be a Linux environment
-
-I.**   **Are there any specific requirements for the database?**
-
-​        i.     Yes. It needs to be in Postgres or MySQL and queries need to be secure across the servers.
+   1. After reviewing initial requirements, the team had many questions. This led us to go back and clarify with the client, which ultimately led to more requirements and bit more confusion. This taught us to ensure we understand what is being asked from the start. 
+4. Constantly communicate with team
+   1. From the project start, the team set up a communication plan. We decided on a time we would meet every week. We also exchanged phone numbers, made a group chat, and created a slack channel. This would allow us to be in constant contact with one another in and out of the classroom. This ultimately brough us closer together not only as co-workers but as friends that could collaborate effectively. We learned that open communication leads to a more comfortable working environment and the creation of a more efficient system. 
+5. Never be afraid to ask for help
+   1. In carrying out a project, we learned that the best results stem from asking for help. We learned that you can try your best but sometimes guidance from a team member goes a long way. Also, this is the whole reason why we are on a team, to guide one another and help learn from one another. 
+6. Voice your thoughts and opinons
+   1. Working with a team on a project where everyone has different personalities and skills, it can be hard to voice one's opinion. We learned that to work with a team means we must always be upfront and voice our thoughts which leads to more knowledge and better outcomes.  
+7. Google Slides Only
+   1. During the first week of presenting our weekly updates (that was completed on a Power Point, the power point failed to open and we had to resort to alternative forms of. We learned the lesson of not only use google slides only, but always have a back up. Presentations will not always turn out the way you expect them too, especially in the world of technology where live demos are risky. We learned to always have a back-up plan. 
 
 ## Infrastructure
 
@@ -379,14 +439,15 @@ Costs based on categories: Labor, Software, Hardware, & Facilities:
 
 - **Labor:** The cost of human effort expended towards project objectives.
 
-|        Role         | HRs         | SKILLS/Technologies                                          | COST   |      |      |
-| :-----------------: | ----------- | ------------------------------------------------------------ | ------ | ---- | ---- |
-|                     |             |                                                              |        |      |      |
-|   Project Manager   | 8 hrs/week  | Diagrams, Documentation, Communication, Organization, Trello, Github | $22/hr |      |      |
-|      Developer      | 14 hrs/week | Java, Python, Node.js, Swagger, Docker, CAS Authentication   | $28/hr |      |      |
-|   Database Admin    | 8 hrs/week  | SQL, Postgres                                                | $22/hr |      |      |
-|         IT          | 4 hrs/week  | Routers, Switches, Setting up servers                        | $18/hr |      |      |
-| Front-End Developer | 6 hrs/week  | HTML, CSS, Javascript, React                                 | $20/hr |      |      |
+|        Role         | HRs         | SKILLS/Technologies                                          | COST      |      | 13 Weeks Salary |
+| :-----------------: | ----------- | ------------------------------------------------------------ | --------- | ---- | --------------- |
+|                     |             |                                                              |           |      |                 |
+|   Project Manager   | 8 hrs/week  | Diagrams, Documentation, Communication, Organization, Trello, Github | $22/hr    |      | $2,288          |
+|      Developer      | 14 hrs/week | Java, Python, Node.js, Swagger, Docker, CAS Authentication   | $28/hr    |      | $5,096          |
+|   Database Admin    | 8 hrs/week  | SQL, Postgres                                                | $22/hr    |      | $2,288          |
+|         IT          | 4 hrs/week  | Routers, Switches, Setting up servers                        | $18/hr    |      | $936            |
+| Front-End Developer | 6 hrs/week  | HTML, CSS, Javascript, React                                 | $20/hr    |      | $1,560          |
+|                     |             |                                                              | **Total** |      | $12, 168        |
 
 NOTE: Batchelor's degree preffered, but no degree is required to assume these roles as long as necessary skills are applicable. 
 
@@ -413,45 +474,52 @@ NOTE: Batchelor's degree preffered, but no degree is required to assume these ro
 
 - **Facilities:** The cost of renting or using specialized equipment, services, or locations.
 
-  - This entire project can be hosted on the cloud such as AWS or Google Server. The memory needed for our current system is approximately 1 GB. This would amount to a cost of approximately $5/Month to run this system.
+  - This entire project can be hosted on the cloud such as AWS or Google Server. The memory needed for our current system is approximately 1 GB. This would amount to a cost of approximately $5/month to run this system.
   - No office space necessary   
 
 **Totals** 
 
-This project took aproximately 13 weeks to complete. 
+This chart provides the total cost for one year of building and maintaining the system. Note: This project took aproximately 13 weeks to complete. 
 
-Times the hours a week by 13 weeks and add in other costs 
+| Category       | Total                |      |
+| -------------- | -------------------- | ---- |
+| **Labor**      | $12, 168             |      |
+| **Software**   | 0                    |      |
+| **Hardware**   | $5,000               |      |
+| **Facilities** | $5 * 12 months = $60 |      |
+|                | **$17,228**          |      |
 
-Total Cost + additional $5/month to keep the system running
 
-Test Cases for the use cases: 
 
-1. When you sign in  
-2. When you choose sentence 
+## Ethical Implications
 
-## Ethics Essay
+​	
 
-​	When developing a project there are many ethical implications the creators must take into account to ensure their application will abide by a standard code/conduct of ethics. As this tool will be utilized by reviewers, 
+​	There are many ethical standards that professionals must take into account when building a system. They must ensure that their application will abide by a standard code of ethical conduct. This is very important for computing professionals, as their products and services will be potentially utilized by thousands of users on daily basis. The Writing Advisor Review System follows ethical guidelines in accordance to the ACM Code of Ethics and basic human rights such as privacy. The ACM Code of Ethic is designed to "inspire and guide the ethical conduct of all computing professionals, including current and aspiring practitioners, instructors, students, influencers, and anyone who uses computing technology in an impactful way."
 
-Privacy -> we are not associating the user's information with the log in data. We are simply 
+​	ACM general ethical principle 1.1 states professionals must contribute to society and human well-being, acklowledge that all people are stakeholders in computing. Team WAR acknowledges that the users of this system will contribute to the well-being of the writing community as professional reviewers. ACM general ethical principle 1.1 states professionals must be honest and trustworthy. There is no false advertisment to the reviewer on our system. There is no way for the reviewer to use the system for harm against users who submit these essays. The reviewer will validate sentences as correct or incorrect to the best of their professional ability. To use the system, our users must agree to abide by the standards of Marist College Writing Center, as they are an employees at the Marist College Writing Center. Also, per standards of the Marist Writing Center, ACM general principle 1.7 states to honor confidentiality. Administrators of the system, nor it's users will not expose the contents of the sentences being reviewed. We recognize that some sentences may come from assignments be personal and contain private information that the student does not want to be released.   
 
-1.1 Contribute to society and human well-being, acknowledge that all people are stakeholders in computingWe acknowledge that our product will
+ACM general ethical principle 1.4 states that professionals must be fair and take action not to discriminate Team WAR does not discriminate against the users of our who can use our product Marist celebrates diversity As long a student is enrolled at Marist college they can use our product no matter what age, color, disability, ethnicity, family status, gender identity, labor union membership, military status, nationality, race, religion or belief, sex, or sexual orientation. As our system is in dark mode, it is colorblind friendly. 
 
- 1.3 Be honest and trustworthy No false advertisementUsing our service will not result in an A on the assignmentGuaranteeing an honest review Our product will not write students essay’s for themWill aid the students in their writing processOur product is free and will not charge students for using (for now?) (yes always free (marist service)
+​	All users of our system maintain a right to privacy. Improper access to personal information is a violation of a user's privacy. In the technology world, even authorized access may lead to privacy concerns. As our database stores user information, we consider the ethical implications of holding this information. 
 
-No false qualificationsThe reviewers are professional and hired by the Marist College writing centerNot accepting bribesThe reviewers will not accept bribes from students to write their paper
-
- 1.4 Be fair and take action not to discriminate*We do not discriminate against who can use our product Marist celebrates diversity As long a student is enrolled at Marist college they can use our product no matter what age, color, disability, ethnicity, family status, gender identity, labor union membership, military status, nationality, race, religion or belief, sex, or sexual orientation. Colorblind is a check 
-
-1.6 Respect privacy *We will be transparent that the data entered will be used to train our models as per the disclaimer on the sign on-page. We will only collect the minimum amount of information needed (ex full name & student ID)Data cannot be sent to third party applicants On the admin page data is collected to see login activity however, this will not be tied to the specific user.Users do not have to worry about their data being exploited. 
-
-1.7 Honor Confidentiality. We will not expose the contents of the data we receive. We realize that some writing assignments that will be submitted may be personal essays. 
+Firstly, WAR does not allow anyone to acccess site statistics unless they have authorized access to the system. 
 
 ![image-20191121160344793](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191121160344793.png)
 
+Privacy The Writing Advisor Reviewing System . 1.6 Respect privacy *We will be transparent that the data entered will be used to train our models as per the disclaimer on the sign on-page. We will only collect the minimum amount of information needed (ex full name & student ID)Data cannot be sent to third party applicants On the admin page data is collected to see login activity however, this will not be tied to the specific user. Users do not have to worry about their data being exploited. not associating the user's information with the log in data. We are simply 
+
+Designing or implement systems that deliberately demean an individuals ability is not ethical. This system does not demean or take away from the reviewing skills of the individual but is used to motivate the reviewer to grow their skills. We understand we are repsonsible for enhancing, and not degrade the quality of working life. Through this system, we are not replacing the jobs the of the individuals in the writing center but motivating them to perform their work more efficiently. We recognize and accept the reviewers safety, professional development and knowledge. 
+
+Freedom of speech -> 
+
+Can you evaluate a sentence based on these specific criteria? These are the main crieria. However, if there are feels there are other guidelines, our system is designed to easily integrate another rule into the system. 
+
+​	The introduction of new technological systems can have a significant effect on human behavior. New technologies present new opportunities to the user in which they did not previously have. 
 
 
-Question: Can you evaluate a sentence based on these specific criteria? 
 
-These are the main crieria. However, if there are feels there are other guidelines, our system is designed to easily integrate another rule into the system. 
+
+
+
 
