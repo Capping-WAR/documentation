@@ -25,6 +25,9 @@ One of the most important things to remember when using this package is setting/
 * PASSWORD
 * HOST
 * PORT
+* AI_API_URL
+* AI_USER
+* AI_PASS
 
 
 ## Deployment
@@ -37,6 +40,9 @@ USER=me
 PASSWORD=my_pass
 HOST=0.0.0.0
 PORT=5432
+AI_API_URL=http://somthing.com
+AI_USER=meeeee
+AI_PASS=12345
 ```
 
 ### Using Docker
