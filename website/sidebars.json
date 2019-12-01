@@ -3,5 +3,14 @@
     "Overview": ["technical_overview"],
     "Services": ["database", "war_api","ai_api", "ui", "nginx", "docusaurus"],
     "Deployment": ["master_compose"]
+  },
+  "Project": {
+    "Overview": ["project_details", "executive_summary"],
+    "Analysis": ["requirements", "use_case", "activity"],
+    "Design": ["database_design", "user_interface"],
+    "Plan": ["final_schedule", "expectation_v_reality", "client_meetings", "lessons_learned"],
+    "Infrastructure": ["it_requirements", "technologies_frameworks", "test_plan"],
+    "Cost Analysis": ["cost_analysis"],
+    "Ethics": ["ethical_implications"]
   }
 }
