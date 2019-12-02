@@ -6,7 +6,7 @@ sidebar_label: Database
 
 1.  Figure 1.1  ER Diagram
 
-![image-20191118191306297](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191118191306297.png)
+![Database Design](./assets/image-20191118191306297.png)
 
 2.  Documentation
 
