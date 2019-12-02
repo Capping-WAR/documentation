@@ -1,6 +1,6 @@
 Title Page
 
-Writing Advisor Review Tool 
+Writliing Advisor Review Tool 
 
 CMPT475/477
 
@@ -54,34 +54,38 @@ viii.     The reviewer interacts with a reputation system.
 
 B.  **System Requirements** 
 
-​		 i.     When sentences are definitely marked as correct or incorrect, the system triggers the sentence to be moved to a definitive table. Thus, there must be a table in the database to hold this data. This will be the definitive dataset that will be used train and deploy new models. The system must also be designed to easily integrate additional rules if needed. Thus, there must be a table to hold each individual rule. 
+​		 i.     When sentences are definitely marked as correct or incorrect, the system triggers the sentence to be moved to a definitive table. Thus, there must be a table in the database to hold this data. This will be the definitive dataset that will be used train and deploy new models. 
 
-​       ii.     The AI page will include the following components: 
+​		ii. The system must be designed to easily integrate additional rules if needed. Thus, there must be a table to hold each individual rule. 
+
+​       iii. Sentences will appear up for review based on highest priority. The sentences with the lowest amount of current reviews maintain the highest priority.   
+
+​       iv.     The AI page will include the following components: 
 
 			1.   Current Threads Table displaying different parameters of the models
 			2. 	 Thread Status Table
 			3.   Hyper-Parameter Search Space Gif
 In the future, the system will be set up to achieve further accuracy of the training model to determine if the new models are better than the previous model through hyperparameter optimization techniques such as grid search and evolution strategies. It will retrain a new machine learning model and if that model is better than the previous model, it will deploy the new model. The purpose of the current thread tables is to keep track of all trained model versions. Not all versions will be deployed, but all versions will be tracked in this table including information regarding other parameters of the version model. 
 
-​      iii.      The administration side will report visual statistics to the user including:
+​      v.      The administration page will report visual statistics to the admin including:
 
 			1.   Total Users
 			2. 	 Login Data
 			3.   User's by Operating System
 			4.   Latest Views - populates according to latest user activity
-   iv.     All development will occur in a Linux environment.
+   vi.     All development will occur in a Linux environment.
 
-   v.     There will be separate development servers for the database and the web app. There will also be a testing server and a production server.
+   vii.     There will be separate development servers for the database and the web app. There will also be a testing server and a production server.
 
 ### Use Case Diagram and Documentation 
 
-![](/Users/samanthadimaio/Downloads/Capping Use Case Diagram.png)
+![](/Users/samanthadimaio/Desktop/Capping Pictures/Capping Use Case Diagram.png)
 
 The Reviewer as a user has multiple roles in the system. They will log onto the system through Marist CAS Authentication. They will validate tagged sentences as correct or incorrect. If determined incorrect, they will choose the rule the sentence violates. The system has a reputation system in which the user can gain reputation through correctly validating sentences that agree with majority of votes.  The reviewer can lose reputation by incorrectly validating sentences that do not agree with majority of votes. The reviewer is able to view their reputation score on the rank progress bar. They can also see if there reputation score is one of the highest by looking at the leaderboard. The leaderboard displays the top three reputation scores. The Admin as a user can view visual statistics about the system including total users on the system, latest activity, and what operating system the users are reviewing on. Also, the Admin can review AI tables and charts to get information on training models.  
 
 ###Activity Diagram and Documentation 
 
-![](/Users/samanthadimaio/Downloads/Activity Diagram for Capping WAR -2.png)This activity diagram represents the sequential flow of actions in the system. The user will be brought to the Log In screen and enter their Marist credentials via CAS Authentication. The system will check if the user is registered or not in the system. If not, they will be directed to the Sign Up screen. Once entering registration information, they will be redirected back to the Log In screen and must re-enter Marist Login credentials to use the system. The opening page displays the front dashboard with options to review a sentence, view the rules, view the leaderboard and current user rank, and also access the side bar tabs. If the user chooses to review a sentence, they must validate the sentence as correct or incorrect. If they choose in correct. To end the session, the user must log out of the system. 
+![](/Users/samanthadimaio/Desktop/Capping Pictures/Activity Diagram for Capping WAR -2.png)This activity diagram represents the sequential flow of actions in the system. The user will be brought to the Log In screen and enter their Marist credentials via CAS Authentication. The system will check if the user is registered or not in the system. If not, they will be directed to the Sign Up screen. Once entering registration information, they will be redirected back to the Log In screen and must re-enter Marist Login credentials to use the system. The opening page displays the front dashboard with options to review a sentence, view the rules, view the leaderboard and current user rank, and also access the side bar tabs. If the user chooses to review a sentence, they must validate the sentence as correct or incorrect. If they choose in correct. To end the session, the user must log out of the system. 
 
 ## Project Design
 
@@ -89,7 +93,7 @@ The Reviewer as a user has multiple roles in the system. They will log onto the 
 
 1.  Figure 1.1  ER Diagram
 
-![image-20191118191306297](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191118191306297.png)
+![image-20191118191306297](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191118191306297.png)
 
 2.  Documentation
 
@@ -115,31 +119,31 @@ There is also a **TrainingDataset** table that has no direct relationship with o
 
 #####Main Dashboard 
 
-![](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120201321307.png) 
+![](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120201321307.png) 
 
 This screenshot shows the main view of the front landing page which includes the main components of the reviewing tool. This includes a side bar, a leaderboard, a rank system, the sentence reviewer, and a display of the rules. There is also a log out button on the top right corner. The below screenshots will include more detail on each of these components.  
 
 **Sidebar**
 
-![image-20191120201345222](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120201345222.png)
+![image-20191120201345222](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120201345222.png)
 
 On the left hand side of the application there is a side bar which consists of tabs. The **Dashboard** tab is the main landing page. The **About** tab page will include information about the application as well as information about the creators of the application. The **AI** tab will tables and a graphical display that act as a placeholder for future training model data that will be collected from the application involving the accuracy of reviewing. The **Admin** tab will be used to look at site statistics involving total users on the application, latest activity on the system, and what operating system users are using. The **Help** tab is for FAQs the reviewer may come across when using the tool. 
 
 **Sentence Review** 
 
-![image-20191120201825336](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120201825336.png)
+![image-20191120201825336](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120201825336.png)
 
 The Sentence Reviewer component is the center of the front landing page. It will display sentences that have been tagged for review. The reviewer can select correct if they believe the sentence is correct. If they believe the sentence contains an error, the user can select incorrect and check off the rule(s) they believe the sentence violates. Another sentences will keep appearing once marked.  
 
 **Display of Rules** 
 
-![image-20191120201911454](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120201911454.png)
+![image-20191120201911454](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120201911454.png)
 
 Below the sentence review section there is a display of the rules. It shows each rule with a drop down explaining the rule and what a violation of that rule entails. This will help the reviewer understand more clearly if they are unsure whether or not a rule pertains to a tagged sentence. 
 
 **Leaderboard and Ranking System**
 
-**![](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120202009656.png)**
+**![](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120202009656.png)**
 
 On the left side of the front landing page there is a leaderboard and a rank component underneath. The leaderboard corresponds to the reputation system of the application. Reputation is earned through correctly reviewing a sentence (as correct or incorrect in accordance to agreement with majority of rewiewer's votes for a specific rule). If a submitted review meets this criteria, the reviewer gains 10 points. If the review does not meet this criteria, the reviewer loses 10 points. The Reviewer themself and the other Top 2 Reviewer's, based on the highest reputation, will be displayed on the leaderboard along with their current scores. The ranking will show what the user’s current score is. This allows the user's to see where they stand alongside the top Reviewer's in the system. 
 
@@ -151,19 +155,19 @@ The About US page consists of information related to the purpose of the Writing 
 
 1. Current Threads
 
-![image-20191121141824133](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191121141824133.png)
+![image-20191121141824133](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191121141824133.png)
 
 This table is used to display current models along with parameters regarding the model. A parameter is a variable that is internal to the model and can be estimated from data. They are required by the model when making predictions. 
 
 1. Thread Status
 
-![image-20191121141840251](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191121141840251.png)
+![image-20191121141840251](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191121141840251.png)
 
 This table displays the ID of the model alongside it's current status. 
 
 1. Hyper-Parameter Search Space 
 
-![image-20191121141906858](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191121141906858.png)
+![image-20191121141906858](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191121141906858.png)
 
 This section will be used to diplay images generated based on the model training data. 
 
@@ -171,31 +175,31 @@ This section will be used to diplay images generated based on the model training
 
 1.   Full View
 
-<img src="/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120200859600.png" alt="image-20191120200859600" style="zoom:67%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120200859600.png" alt="image-20191120200859600" style="zoom:67%;" />
 
 Here is the full frontal view of the Admin Page, which can be accessed through the left hand tab. 
 
 2. Total Users
 
-![image-20191120200919947](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120200919947.png)
+![image-20191120200919947](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120200919947.png)
 
 This section displays the total number of users currently in the system. 
 
 3. Login Data
 
-<img src="/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120200948666.png" alt="image-20191120200948666" style="zoom: 25%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120200948666.png" alt="image-20191120200948666" style="zoom: 25%;" />
 
 This section displays a graphical chart of login data by date. When hovering over the bar graphs, the number of logins appears along with the number of reviews submitted for that day. As the dates progress, this chart will update accordingly. 
 
 4. Users by Operating System
 
-<img src="/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191120201007799.png" alt="image-20191120201007799" style="zoom:50%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/image-20191120201007799.png" alt="image-20191120201007799" style="zoom:50%;" />
 
 This section displays a chart that shows what operating system users are using. It is cateogorized into Windows, Mac, and Other with the percentage of users below. 
 
 #####FAQ
 
-<img src="/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191121135609673.png" alt="image-20191121135609673" style="zoom: 69%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/image-20191121135609673.png" alt="image-20191121135609673" style="zoom: 69%;" />
 
 This page is used for FAQ's the user might have when using our system. They can access this page by choosing the tab with question mark labeled "Help" on the left hand side. If they see a question they would like to know the answer to, they can click on the drop down arrow on the right hand side to retrieve the answer. 
 
@@ -401,23 +405,23 @@ Minimum of 1 available node(VM), with at least 4gb of memory.
 
 Below are the technologies and frameworks Team WAR has utilized in managing, designing, developing, and deploying this system. 
 
-<img src="https://miro.medium.com/max/630/1*j_zP74-cpvXRcs8dM_pkMQ.jpeg" alt="Image result for docker" style="zoom:33%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/1*j_zP74-cpvXRcs8dM_pkMQ.png" alt="Image result for docker" style="zoom:33%;" />
 
-<img src="https://cavedweller92.files.wordpress.com/2019/07/swagger-logo-horizontal.png" alt="Image result for swagger" style="zoom: 50%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/swagger-logo-horizontal.png" alt="Image result for swagger" style="zoom: 50%;" />
 
-<img src="https://www.netclipart.com/pp/m/79-793376_flask-png-python-flask-logo-png.png" alt="Image result for python flask logo" style="zoom: 25%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/79-793376_flask-png-python-flask-logo-png.png" alt="Image result for python flask logo" style="zoom: 25%;" />
 
-<img src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png" alt="Image result for react logo" style="zoom: 67%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/react-logo.png" alt="Image result for react logo" style="zoom: 67%;" />
 
-<img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" alt="Image result for nodejs logo" style="zoom: 50%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/node-js-736399_960_720.png" alt="Image result for nodejs logo" style="zoom: 50%;" />
 
-<img src="https://portworx.com/wp-content/uploads/2018/05/postgresql-logo.png" alt="Image result for postgres logo" style="zoom: 50%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/postgresql-logo.png" alt="Image result for postgres logo" style="zoom: 50%;" />
 
-<img src="https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F918220%252F316bce31-4c38-4f3b-b743-a17406175286.png%252F950x534__filters%253Aquality%252880%2529.png?signature=ASyPwdNVsAIo5E7uzfpoydo-rmc=&amp;source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com" alt="Image result for slack logo" style="zoom: 33%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/uploads%2Fcard%2Fimage%2F918220%2F316bce31-4c38-4f3b-b743-a17406175286.png%2F950x534__filters%3Aquality(80).png?signature=ASyPwdNVsAIo5E7uzfpoydo-rmc=&amp;source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com.png" alt="Image result for slack logo" style="zoom: 33%;" />
 
-<img src="http://pngimg.com/uploads/github/github_PNG20.png" alt="Image result for github logo" style="zoom: 25%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/github_PNG20.png" alt="Image result for github logo" style="zoom: 25%;" />
 
-<img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/brand-assets/Logos/0099ec3754bf473d2bbf317204ab6fea/trello-logo-blue.png" alt="Image result for trello logo png" style="zoom: 25%;" />
+<img src="/Users/samanthadimaio/Desktop/Capping Pictures/trello-logo-blue.png" alt="Image result for trello logo png" style="zoom: 25%;" />
 
 
 
@@ -505,7 +509,7 @@ ACM general ethical principle 1.4 states that professionals must be fair and tak
 
 Firstly, WAR does not allow anyone to acccess site statistics unless they have authorized access to the system. 
 
-![image-20191121160344793](/Users/samanthadimaio/Library/Application Support/typora-user-images/image-20191121160344793.png)
+![image-20191121160344793](/Users/samanthadimaio/Desktop/Capping Pictures/image-20191121160344793.png)
 
 Privacy The Writing Advisor Reviewing System . 1.6 Respect privacy *We will be transparent that the data entered will be used to train our models as per the disclaimer on the sign on-page. We will only collect the minimum amount of information needed (ex full name & student ID)Data cannot be sent to third party applicants On the admin page data is collected to see login activity however, this will not be tied to the specific user. Users do not have to worry about their data being exploited. not associating the user's information with the log in data. We are simply 
 
