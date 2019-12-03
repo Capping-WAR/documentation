@@ -38,6 +38,8 @@ On the left side of the front landing page there is a leaderboard and a rank com
 
 ##### About US
 
+**![Abous Us](./assets/image (10).png)
+
 The About US page consists of information related to the purpose of the Writing Advisor Review tool and the creators of it. 
 
 #####Artifical Intelligence 
