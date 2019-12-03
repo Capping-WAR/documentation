@@ -2,7 +2,7 @@
 id: user_interface
 title: User Interface
 sidebar_label: User Interface
----
+---predict(ckh.log, newdata, interval ="prediction")
 
 #### Components 
 

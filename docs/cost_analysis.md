@@ -10,7 +10,7 @@ Costs based on categories: Labor, Software, Hardware, & Facilities:
 
 - **Labor:** The cost of human effort expended towards project objectives.
 
-|        Role         | HRs         | SKILLS/Technologies                                          | COST      |      | 13 Weeks Salary |
+|        Role         | Time        | Skills/Technologies                                          | COST      |      | 13 Weeks Salary |
 | :-----------------: | ----------- | ------------------------------------------------------------ | --------- | ---- | --------------- |
 |                     |             |                                                              |           |      |                 |
 |   Project Manager   | 8 hrs/week  | Diagrams, Documentation, Communication, Organization, Trello, Github | $22/hr    |      | $2,288          |
@@ -30,14 +30,14 @@ NOTE: Batchelor's degree preffered, but no degree is required to assume these ro
 
 - **Hardware:** Physical computer resources.
 
-  | Laptop | Cost (Approx.) |      |      |
-  | ------ | -------------- | ---- | ---- |
-  | 1      | $1000          |      |      |
-  | 2      | $1000          |      |      |
-  | 3      | $1000          |      |      |
-  | 4      | $1000          |      |      |
-  | 5      | $1000          |      |      |
-  |        | Total: $5000   |      |      |
+  | Laptop | Cost (Approx.) |
+  | ------ | -------------- |
+  | 1      | $1000          |
+  | 2      | $1000          |
+  | 3      | $1000          |
+  | 4      | $1000          |
+  | 5      | $1000          |
+  |        | Total: $5000   |
 
   Note: A team of five could thoroughly complete this project. The technologies used are avaiable on all macOS, Windows, and Linux operating systems. 
 
@@ -52,11 +52,11 @@ NOTE: Batchelor's degree preffered, but no degree is required to assume these ro
 
 This chart provides the total cost for one year of building and maintaining the system. Note: This project took aproximately 13 weeks to complete. 
 
-| Category       | Total                |      |
-| -------------- | -------------------- | ---- |
-| **Labor**      | $12, 168             |      |
-| **Software**   | 0                    |      |
-| **Hardware**   | $5,000               |      |
-| **Facilities** | $5 * 12 months = $60 |      |
-|                | **$17,228**          |      |
+| Category       | Total                |
+| -------------- | -------------------- |
+| **Labor**      | $12, 168             |
+| **Software**   | 0                    |
+| **Hardware**   | $5,000               |
+| **Facilities** | $5 * 12 months = $60 |
+|                | **$17,228**          |
 

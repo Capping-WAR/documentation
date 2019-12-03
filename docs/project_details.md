@@ -4,14 +4,28 @@ title: Project Details
 sidebar_label: Project Details
 ---
 
-Writing Advisor Review Tool 
+**Name**: Writing Advisor Review Tool 
 
-CMPT475/477
+**Purpose**: Senior Capping Project 
 
-Senior Capping Project 
+**Course**: CMPT475/477
 
-Fall 2019
+**Professor**: Dr. Pablo Rivas 
 
-Samantha DiMaio, Dayna Eidle, Daniel Gisolfi, Alissa Systma, Lauren Urena-Clark
+**Semester**: Fall 2019
 
-Dr. Pablo Rivas 
+**Team Members**: 
+
+Samantha DiMaio (Information Systems, Project Manager)
+
+Dayna Eidle (Computer Science, Database Admin)
+
+Daniel Gisolfi (Computer Science, Developer)
+
+Alissa Systma (Computer Science, Developer)
+
+Lauren Urena-Clark (Information Technology, IT Personnel)
+
+**Client**: Dr. Pablo Rivas 
+
+
