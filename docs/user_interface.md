@@ -2,11 +2,11 @@
 id: user_interface
 title: User Interface
 sidebar_label: User Interface
----predict(ckh.log, newdata, interval ="prediction")
+---
 
 #### Components 
 
-#####Main Dashboard 
+##### Main Dashboard 
 
 ![Main Dash](./assets/image-20191120201321307.png) 
 
