@@ -38,11 +38,11 @@ On the left side of the front landing page there is a leaderboard and a rank com
 
 ##### About US
 
-**![Abous Us](./assets/image (10).png)
+##### ![Abous Us](./assets/image(10).png)
 
 The About US page consists of information related to the purpose of the Writing Advisor Review tool and the creators of it. 
 
-#####Artifical Intelligence 
+##### Artifical Intelligence 
 
 1. Current Threads
 
@@ -88,7 +88,7 @@ This section displays a graphical chart of login data by date. When hovering ove
 
 This section displays a chart that shows what operating system users are using. It is cateogorized into Windows, Mac, and Other with the percentage of users below. 
 
-#####FAQ
+##### FAQ 
 
 <img src="./assets/image-20191121135609673.png" alt="image-20191121135609673"  />
 
